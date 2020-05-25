@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(#eeeff0,#d8dbdd);
+	height: 100vh;
+	overflow: hidden;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.center{
+	margin: 70px auto;
+	width: 540px;
+	border: 1px solid  #9e9894;
+	border-radius: 5px;
+	position: relative;
+	background:   #72706e;
+}
+.center .btns{
+	display: flex;
+	padding: 40px 0px 20px 30px;
+}
+.btns a{
+	text-decoration: none;
+	padding: 15px 75px;
+	font-size: 30px;
+	color: white;
+	font-family: arial;
+	background:  #aaa8a7;
+	border-radius: 2px;
+}
+a.a2{
+	background:  #dfdad7;
+}
+.center .header{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	padding: 5px 0 30px 0;
+}
+form input{
+	height: 45px;
+	width: 200px;
+	font-size: 20px;
+	background: none;
+	border: 1px solid  #e8914a;
+	border-radius: 2px;
+	padding: 0 10px;
+	margin-left: 35px;
+	outline: none;
+	color: white;
+}
+::placeholder{
+	color: #e3eaee;
+}
+form input.lstname{
+	margin-left: 20px;
+}
+form input.email{
+	width: 445px;
+	margin-top: 20px;
+}
+form input[type="submit"]{
+	margin: 30px 0 40px 35px;
+	width: 465px;
+	height: 50px;
+	font-size: 23px;
+	cursor: pointer;
+	color: white;
+	background:  #e8914a;
+	border: 1px solid #2573a7;
+}
+form input[type="submit"]:hover{
+	background: #5d6148;
+	transition: .5s;
+}
+.center .header1{
+	padding-bottom: 10px;	
+}
+.center .login-form{
+	display: none;
+}
+.center .signup_error{
+	user-select: none;
+	font-size: 20px;
+	text-align: center;
+	padding: 8px 0;
+	margin: -20px 35px 20px 35px;
+	color: #ff9999;
+	background: rgba(255,0,0,.3);
+	border-radius: 3px;
+	border: 1px solid #b30000;
+	display: none;
+}
